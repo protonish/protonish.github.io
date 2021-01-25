@@ -9,43 +9,6 @@
       {{ page._styles }}
     </style>
     {% endif %}
-    <style type="text/css">
-      .share-page {
-        color: grey;
-        font-weight: bold;
-        text-align: right;
-      }
-
-      .share-btn {
-        display: inline-block;!important
-        color: #ffffff;!important
-        border: none;
-        padding: 0.1em 0.6em;!important
-        outline: none;
-        text-align: center;
-        font-size: 0.9em;!important
-        margin: 0 0.2em;!important
-      }
-
-      .share-btn:focus,
-      .share-btn:hover {
-        text-decoration: none;!important
-        opacity: 0.8;!important
-      }
-
-      .share-btn:active {
-        color: #e2e2e2;!important
-      }
-
-      .share-btn.twitter     { background: #55acee; }
-      .share-btn.google-plus { background: #dd4b39; }
-      .share-btn.facebook    { background: #3B5998; }
-      .share-btn.stumbleupon { background: #EB4823; }
-      .share-btn.reddit      { background: #ff5700; }
-      .share-btn.hackernews  { background: #ff6600; }
-      .share-btn.linkedin    { background: #4875B4; }
-      .share-btn.email       { background: #444444; }
-    </style>
   </head>
 
   <d-front-matter>
@@ -96,7 +59,7 @@
 
       <d-title>
         <h1>{{ page.title }}</h1>
-        <!--p>{{ page.description }}</p-->
+        <p>{{ page.description }}</p>
       </d-title>
 
       <d-byline></d-byline>
@@ -105,9 +68,7 @@
         {{ content }}
       </d-article>
 
-      
       <d-appendix>
-        {% include share-page.html %}
         <d-footnote-list></d-footnote-list>
         <d-citation-list></d-citation-list>
       </d-appendix>
