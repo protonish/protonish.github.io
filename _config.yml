@@ -5,7 +5,7 @@
 title: Nishant Kambhatla
 email: nkambhat at sfu dot ca
 description: > # this means to ignore newlines until "url:"
-  Nishant Kambhatla's academic website. SFU Computer Science. Natural Language Processing , Deep Learning , Neural Machine Translation .
+  Nishant Kambhatla's academic website. PhD student at SFU Computer Science : Natural Language Processing , Deep Learning , Neural Machine Translation .
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -35,7 +35,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: protonish # your GitHub user name
-twitter_username: log_loss # your Twitter handle
+twitter_username: protonish_ # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: IgjoRBMAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
