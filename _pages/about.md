@@ -15,7 +15,7 @@ profile:
 news: true
 social: true
 ---
-I am a 3<sup>rd</sup> year CS PhD student in the <a href="http://natlang.cs.sfu.ca/">NatLang Lab</a> at <a href="http://sfu.ca">Simon Fraser University</a>, advised by <a  href="https://www.cs.sfu.ca/~anoop/">Prof. Anoop Sarkar</a>. I work at the intersection of `Natural Language Processing` and `Deep Learning`. I'm broadly interested in building `multilingual models`. My current research focus is on machine learning for multilingual models and massively multilingual neural machine translation. Until recently, I was working on interpretability for neural machine translation.
+I am a CS PhD student in the <a href="http://natlang.cs.sfu.ca/">NatLang Lab</a> at <a href="http://sfu.ca">Simon Fraser University</a>, advised by <a  href="https://www.cs.sfu.ca/~anoop/">Prof. Anoop Sarkar</a>. I work at the intersection of `Natural Language Processing` and `Deep Learning`. I'm broadly interested in building `multilingual models`. My current research focus is on machine learning for multilingual models and massively multilingual neural machine translation. Until recently, I was working on interpretability for neural machine translation.
 
 I completed my Masters in Computer Science (with focus on NLP and Deep Learning) in 2018 from SFU, advised by <a href="https://www.cs.sfu.ca/~anoop/">Prof. Anoop Sarkar</a> and <a  href="http://www.sfu.ca/~popowich/public/Home.html">Prof. Fred Popowich</a>. I primarily worked on <a href="http://summit.sfu.ca/item/18588">natural language decipherment</a> during my Masters.
 
