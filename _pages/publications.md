@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Publications in reverse chronological order. Powered by Jekyll-Scholar.
-years: [2021, 2020, 2019, 2018]
+years: [2022, 2021, 2020, 2019, 2018]
 nav: true
 ---
 

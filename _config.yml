@@ -69,11 +69,11 @@ disqus_shortname: nishant # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  #news: 
-    #defaults:
-      #layout: post
-    #output: true
-    #permalink: /news/:path/
+  news: 
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
   projects:
     output: false
     permalink: /projects/:path/
