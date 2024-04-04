@@ -1,5 +1,64 @@
 ---
 ---
+@inproceedings{kambhatla-etal-2023-decipherment,
+    abbr="EACL",
+    title = "Decipherment as Regression: Solving Historical Substitution Ciphers by Learning Symbol Recurrence Relations",
+    author = "Kambhatla, Nishant  and
+      Born, Logan  and
+      Sarkar, Anoop",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-eacl.160",
+    doi = "10.18653/v1/2023.findings-eacl.160",
+    pages = "2136--2152",
+    abstract = "Solving substitution ciphers involves mapping sequences of cipher symbols to fluent text in a target language. This has conventionally been formulated as a search problem, to find the decipherment key using a character-level language model to constrain the search space. This work instead frames decipherment as a sequence prediction task, using a Transformer-based causal language model to learn recurrences between characters in a ciphertext. We introduce a novel technique for transcribing arbitrary substitution ciphers into a common recurrence encoding. By leveraging this technique, we (i) create a large synthetic dataset of homophonic ciphers using random keys, and (ii) train a decipherment model that predicts the plaintext sequence given a recurrence-encoded ciphertext. Our method achieves strong results on synthetic 1:1 and homophonic ciphers, and cracks several real historic homophonic ciphers. Our analysis shows that the model learns recurrence relations between cipher symbols and recovers decipherment keys in its self-attention.",
+}
+
+@inproceedings{kambhatla-etal-2023-learning,
+    abbr="IWSLT@ACL",
+    title = "Learning Nearest Neighbour Informed Latent Word Embeddings to Improve Zero-Shot Machine Translation",
+    author = "Kambhatla, Nishant  and
+      Born, Logan  and
+      Sarkar, Anoop",
+    editor = "Salesky, Elizabeth  and
+      Federico, Marcello  and
+      Carpuat, Marine",
+    booktitle = "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwslt-1.27",
+    doi = "10.18653/v1/2023.iwslt-1.27",
+    pages = "291--301",
+    abstract = "Multilingual neural translation models exploit cross-lingual transfer to perform zero-shot translation between unseen language pairs. Past efforts to improve cross-lingual transfer have focused on aligning contextual sentence-level representations. This paper introduces three novel contributions to allow exploiting nearest neighbours at the token level during training, including: (i) an efficient, gradient-friendly way to share representations between neighboring tokens; (ii) an attentional semantic layer which extracts latent features from shared embeddings; and (iii) an agreement loss to harmonize predictions across different sentence representations. Experiments on two multilingual datasets demonstrate consistent gains in zero shot translation over strong baselines.",
+}
+
+@inproceedings{jain-etal-2023-language,
+    abbr="IWSLT@ACL",
+    title = "Language Model Based Target Token Importance Rescaling for Simultaneous Neural Machine Translation",
+    author = "Kambhatla, Nishant*  and
+      Jain, Aditi*  and
+      Sarkar, Anoop",
+    editor = "Salesky, Elizabeth  and
+      Federico, Marcello  and
+      Carpuat, Marine",
+    booktitle = "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwslt-1.32",
+    doi = "10.18653/v1/2023.iwslt-1.32",
+    pages = "341--356",
+    abstract = "The decoder in simultaneous neural machine translation receives limited information from the source while having to balance the opposing requirements of latency versus translation quality. In this paper, we use an auxiliary target-side language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context. Our experimental results over multiple language pairs show that compared to previous state of the art methods in simultaneous translation, we can use an augmented target side context to improve BLEU scores significantly. We show improvements over the state of the art in the low latency range with lower average lagging values (faster output).",
+}
+
 @inproceedings { kambhatla-etal-2022-auxiliary,
    abbr="EAMT",
    title = "Auxiliary Subword Segmentations as Related Languages for Low Resource Multilingual Translation",

@@ -39,7 +39,22 @@ baseurl:  # should be empty
 
 ### Usage
 
-Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
+1. Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
+
+2. Publications page pulls data from `_bibliography/papers.bib`. The co-authors are listed in `_data/coauthors.yaml`. Fnally, the current year must exist in the `years` list in the `_pages/publications.md`, otherwise the papers from that year won't show on the page.
+```
+---
+layout: page
+permalink: /publications/
+title: publications
+description: Publications in reverse chronological order. Powered by Jekyll-Scholar.
+years: [2023, 2022, 2021, 2020, 2019, 2018]
+nav: true
+---
+```
+
+3. `_news` directory populates the *News* section on the index page. 
+
 
 ## Features
 
